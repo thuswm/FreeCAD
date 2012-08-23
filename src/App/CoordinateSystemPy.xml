@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
+  <!--Question: It seems like I don't need to expose the class properties. Is it so? -->  
+	<PythonExport 
+		Father="DocumentObjectPy" 
+		Name="CoordinateSystemPy" 
+		Twin="CoordinateSystem" 
+		TwinPointer="CoordinateSystem" 
+		Include="App/CoordinateSystem.h" 
+		Namespace="App" 
+		FatherInclude="App/DocumentObjectPy.h" 
+		FatherNamespace="App">
+		<Documentation>
+			<Author Licence="LGPL" Name="Michael Thuswaldner" EMail="thuswm@gmail.com" />
+			<UserDocu>This class is the python interface for the local coordinate system class</UserDocu>
+		</Documentation>
+		<Methode Name="setOrigin">
+			<Documentation>
+				<UserDocu>Set the origin of the local coordinate system</UserDocu>
+			</Documentation>
+		</Methode>
+		<Methode Name="setOrientation">
+			<Documentation>
+				<UserDocu>Set the orientation of the local coordinate system</UserDocu>
+			</Documentation>
+		</Methode>
+		<Methode Name="transformToGlobal">
+			<Documentation>
+				<UserDocu>Transform local coordinate systems to global</UserDocu>
+			</Documentation>
+		</Methode>
+		<Methode Name="transformFromGlobal">
+			<Documentation>
+				<UserDocu>Transform from global coordinate system to local coordinate system</UserDocu>
+			</Documentation>
+		</Methode>
+		<CustomAttributes />
+	</PythonExport>
+</GenerateModel>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenerateModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="generateMetaModel_Module.xsd">
+	<PythonExport 
+		Father="ViewProviderDocumentObject" 
+		Name="ViewProviderCoordinateSystemPy" 
+		Twin="ViewProviderCoordinateSystem" 
+		TwinPointer="ViewProviderCoordinateSystem" 
+		Include="Gui/ViewProviderCoordinateSystem.h" 
+		Namespace="Gui" 
+		FatherInclude="Gui/ViewProviderDocumentObject.h"
+		FatherNamespace="Gui">
+		<Documentation>
+			<Author Licence="LGPL" Name="Michael Thuswaldner" EMail="thuswm@gmail.com" />
+			<UserDocu>This is the ViewProvider for the coordinate system class</UserDocu>
+		</Documentation>
+	</PythonExport>
+</GenerateModel>

@@ -43,6 +43,7 @@ generate_from_xml(FeaturePythonPy)
 generate_from_xml(ComplexGeoDataPy)
 generate_from_xml(PropertyContainerPy)
 generate_from_xml(MaterialPy)
+generate_from_xml(CoordinateSystemPy)
 
 generate_from_py(FreeCADInit InitScript.h)
 generate_from_py(FreeCADTest TestScript.h)
@@ -76,6 +77,8 @@ SET(Document_CPP_SRCS
     GeoFeature.cpp
     InventorObject.cpp
     MeasureDistance.cpp
+    CoordinateSystem.cpp
+    CoordinateSystemPyImp.cpp
     Placement.cpp
     Transactions.cpp
     VRMLObject.cpp
@@ -94,6 +97,7 @@ SET(Document_HPP_SRCS
     GeoFeature.h
     InventorObject.h
     MeasureDistance.h
+    CoordinateSystem.h
     Placement.h
     Transactions.h
     VRMLObject.h

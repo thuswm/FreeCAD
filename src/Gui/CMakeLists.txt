@@ -66,6 +66,7 @@ generate_from_xml(ViewProviderDocumentObjectPy)
 generate_from_xml(ViewProviderPythonFeaturePy)
 generate_from_xml(WorkbenchPy)
 generate_from_xml(SelectionObjectPy)
+generate_from_xml(ViewProviderCoordinateSystemPy)
 
 generate_from_py(FreeCADGuiInit GuiInitScript.h)
 
@@ -608,6 +609,7 @@ SET(Viewprovider_CPP_SRCS
     ViewProviderGeometryObject.cpp
     ViewProviderInventorObject.cpp
     ViewProviderMeasureDistance.cpp
+    ViewProviderCoordinateSystem.cpp
     ViewProviderPyImp.cpp
     ViewProviderPythonFeature.cpp
     ViewProviderVRMLObject.cpp
@@ -624,6 +626,7 @@ SET(Viewprovider_SRCS
     ViewProviderGeometryObject.h
     ViewProviderInventorObject.h
     ViewProviderMeasureDistance.h
+    ViewProviderCoordinateSystem.h
     ViewProviderPythonFeature.h
     ViewProviderVRMLObject.h
     ViewProviderBuilder.h
